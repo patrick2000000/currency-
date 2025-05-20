@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CPEC Saint Babeth Currency Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="blue-box">
+    <h1>CPEC Saint Babeth-company</h1>
+    <br>
+    <h5><span class="highlight">currency exchange platform</span></h5></div>
+  </header>
+
+  <main>
+    <div class="container">
+      <label for="amount">Amount:</label>
+      <input type="number" id="amount" placeholder="Enter amount">
+      
+      <label for="fromCurrency">From Currency:</label>
+      <select id="fromCurrency">
+        <option value="RWF">RWF (Rwanda Franc)</option>
+        <option value="UGX">UGX (Ugandan Shilling)</option>
+        <option value="TZS">TZS (Tanzanian Shilling)</option>
+        <option value="BIF">BIF (Burundian Franc)</option>
+        <option value="CDF">CDF (Congolese Franc)</option>
+        <option value="KES">KES (Kenyan Shilling)</option>
+      </select>
+
+      <label for="toCurrency">To Currency:</label>
+      <select id="toCurrency">
+        <option value="RWF">RWF (Rwanda Franc)</option>
+        <option value="UGX">UGX (Ugandan Shilling)</option>
+        <option value="TZS">TZS (Tanzanian Shilling)</option>
+        <option value="BIF">BIF (Burundian Franc)</option>
+        <option value="CDF">CDF (Congolese Franc)</option>
+        <option value="KES">KES (Kenyan Shilling)</option>
+      </select>
+
+      <button id="convertBtn">Convert</button>
+
+      <div id="result"></div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+  <br>
+  <br><a href="codes.html"><h1>calculator</h1></a>
+</body>
+</html>
